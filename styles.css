@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4f5ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4b4ded;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    opacity: 0.9;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #c7c8ff;
+}
+
+section {
+    padding: 3rem 1.5rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #4b4ded;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.projetos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.projeto-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+}
+
+.projeto-card h3 {
+    color: #4b4ded;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+ul li {
+    background: white;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #4b4ded;
+}
+
+footer {
+    text-align: center;
+    background-color: #4b4ded;
+    color: white;
+    padding: 1.2rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 2rem;
+}
